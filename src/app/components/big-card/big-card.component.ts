@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css'],
 })
 export class BigCardComponent {
-  @Input() photo: string = '';
+  @Input() image: string = '';
   @Input() title: string = '';
-  @Input() summary: string = '';
+  @Input() body: string = '';
 }

@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrls: ['./small-card.component.css']
+  styleUrls: ['./small-card.component.css'],
 })
-export class SmallCardComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class SmallCardComponent {
+  @Input() image: string = '';
+  @Input() title: string = '';
+  @Input() body: string = '';
 }

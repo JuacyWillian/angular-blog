@@ -1,1 +1,26 @@
-<p>home works!</p>
+<app-big-card
+  title="{{ articles[0].title }}"
+  image="{{ articles[0].image }}"
+  body="{{ articles[0].summary }}"
+></app-big-card>
+
+<div class="small-cards">
+  <app-small-card
+    title="{{ articles[1].title }}"
+    image="{{ articles[1].image }}"
+    body="{{ articles[1].summary }}"
+    class="small-card"
+  ></app-small-card>
+  <app-small-card
+    title="{{ articles[2].title }}"
+    image="{{ articles[2].image }}"
+    body="{{ articles[2].summary }}"
+    class="small-card"
+  ></app-small-card>
+  <app-small-card
+    title="{{ articles[3].title }}"
+    image="{{ articles[3].image }}"
+    body="{{ articles[3].summary }}"
+    class="small-card"
+  ></app-small-card>
+</div>
