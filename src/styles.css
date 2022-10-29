@@ -1,7 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&family=Quicksand&display=swap');
+
+/*
+  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+*/
 
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+body{
+  background-color: #B5BBCE;
+
 }

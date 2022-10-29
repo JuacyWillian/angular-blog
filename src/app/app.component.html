@@ -1,4 +1,11 @@
-<div>
-  <h1>{{ title }}</h1>
+<div class="container">
+  <app-menu-bar></app-menu-bar>
+  <app-blog-title title="The Blog"></app-blog-title>
+  <app-big-card></app-big-card>
+  <div class="small-cards">
+    <app-small-card class="small-card"></app-small-card>
+    <app-small-card class="small-card"></app-small-card>
+    <app-small-card class="small-card"></app-small-card>
+  </div>
+  <router-outlet></router-outlet>
 </div>
-<router-outlet></router-outlet>
