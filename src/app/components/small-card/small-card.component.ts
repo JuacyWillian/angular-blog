@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-small-card',
@@ -6,7 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css'],
 })
 export class SmallCardComponent {
+  @Input() id: string = '';
   @Input() image: string = '';
   @Input() title: string = '';
   @Input() body: string = '';
+
+  constructor(private route: ActivatedRoute) {}
 }
